@@ -9,17 +9,15 @@
 			<tr>
 				<td colspan="3" align="center"><h2>Login</h2></td>
 			</tr>
-
-			<tr>
-				<td>NIM</td>
-				<td>:</td>
-				<td><input type="number" name="nim"></td>
-			</tr>
-
 			<tr>
 				<td>Nama</td>
 				<td>:</td>
 				<td><input type="text" name="nama"></br></td>
+			</tr>
+			<tr>
+				<td>NIM</td>
+				<td>:</td>
+				<td><input type="number" name="nim"></td>
 			</tr>
 
 			<tr>
