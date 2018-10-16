@@ -2,8 +2,8 @@
 <?php 
 
 require_once("db.php");
-$nim 			= $_POST['nim'];
 $nama 			= $_POST['nama'];
+$nim 			= $_POST['nim'];
 $jeniskelamin	= $_POST['jeniskelamin'];
 $program 		= $_POST['program'];
 $fakultas 		= $_POST['fakultas'];
@@ -11,7 +11,7 @@ $asal 			= $_POST['asal'];
 $moto 			= $_POST['moto'];
 
 $sql = "INSERT INTO mahasiswa(nama,nim,jeniskelamin,programstudy,fakultas,moto,asal) 
-		VALUES ('$nim', '$nama', '$jeniskelamin', '$program', '$fakultas', '$asal', '$moto')";
+		VALUES ('$nama', '$nim', '$jeniskelamin', '$program', '$fakultas', '$asal', '$moto')";
 
 if (mysqli_query($conn, $sql)) {
 	echo "<center> New record created successfully </center>";
